@@ -1,3 +1,33 @@
-body {
-    background-color: pink;
+body{
+    background-color: black;
+}
+nav{
+    text-transform: uppercase;
+    font-family: PT Sans Narrow;
+}
+/*when you hover the tabs change to italics and background*/
+.nav-link{
+    font-weight: bold;
+}
+.nav-link:hover{
+    font-style: italic;
+    background-color: darkgrey;
+}
+header {
+    /*sizing of the element*/
+    height: 600px;
+    width: 100%;
+    background-image: url("shouto.png");
+    background-size: cover;
+    
+    /*center the text*/
+    text-align: center;
+    
+}
+header p{
+    font-style: italic;
+    color: black
+}
+header h1{
+    color:white;
 }
