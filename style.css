@@ -1,5 +1,6 @@
 body{
-    background-color: black;
+    background-color: white;
+    
 }
 nav{
     text-transform: uppercase;
@@ -15,7 +16,7 @@ nav{
 }
 header {
     /*sizing of the element*/
-    height: 600px;
+    height: 800px;
     width: 100%;
     background-image: url("shouto.png");
     background-size: cover;
@@ -30,4 +31,24 @@ header p{
 }
 header h1{
     color:white;
+}
+.services i{
+    text-align: center;
+}
+.services i{
+    
+    font-size: 30px;
+    padding: 25px 20px;
+    
+    color: #000;;
+    background-color: #789be2;
+    
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 50%;
+}
+.services span {
+    width: 200px;
+    display: inline-block;
 }
