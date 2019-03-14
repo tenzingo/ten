@@ -52,3 +52,12 @@ header h1{
     width: 200px;
     display: inline-block;
 }
+.teams img {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+}
+.contact textarea {
+    height: 200px;
+    width: 100%;
+}
